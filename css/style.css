@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 body{
 	margin:0;
 	padding:0;
-	background:#fff;
+	background:black;
 	font-family: 'Lora', serif;
  }
 h1,h2,h3,h4,h5,h6{
@@ -384,6 +384,75 @@ a.read{
 a.read:hover{
 	background:#3be8b0; 
 }
+
+/* My Skills starting */
+
+.skills-section{
+	background: #021f4a;
+}
+.container{
+	padding: 20px 20px;
+}
+.container h1{
+	text-align: center;
+}
+.container h1,h4{
+	color: #fff;
+}
+.container .skill-label span{
+	color: #fff;
+}
+.container .skills{
+	height: 540px;
+	width: 100%;
+	background: #072858;
+	padding: 10px 10px;
+	margin: 10px;	
+	
+}
+.container .skills .skills-sub{
+	padding-top: 50px;
+	padding-top: 100px;
+}
+.container .skills .indicator-slide{
+	padding: 10px;			
+	margin-top: 10px;
+	}
+
+.container .skill-label{
+	height:30px;	
+	display: flex;
+	justify-content: space-between;
+}
+.container .skills .progress1{
+	width: 100%;
+	height: 2px;
+	background: #041c40;
+}
+.container .skills .bar1{
+	
+	height: 100%;
+	width: 80%;
+	position: relative;	
+background: linear-gradient(to right, #003270 , #2b80ff );
+
+}
+.container .skills .progress1 .bar1::after{
+	content: '';
+	background: #fff;
+	height: 12px;
+	width: 12px;
+	position: absolute;
+	right: 0;
+	top: -6px;
+	border-radius: 50%;
+	box-shadow: 0 0 25px rgba(41, 123, 247, 1);
+}
+
+
+/* My Skills end*/
+
+
 /* Buzz Out */
 @-webkit-keyframes hvr-buzz-out {
   10% {
@@ -696,7 +765,7 @@ h3.wthree_head.two {
 #portfolio p {
   line-height: 1.8em;
   margin: 25px 0 0 0;
-  font-size:1.1
+  font-size:1.1;
   color: #ffffff;
   font-weight: 300;
 }
