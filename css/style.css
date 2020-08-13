@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 body{
 	margin:0;
 	padding:0;
-	background:black;
+	
 	font-family: 'Lora', serif;
  }
 h1,h2,h3,h4,h5,h6{
@@ -388,7 +388,9 @@ a.read:hover{
 /* My Skills starting */
 
 .skills-section{
-	background: #021f4a;
+	background: #ff401b;
+	height: 620px;
+	margin-top: 100px;
 }
 .container{
 	padding: 20px 20px;
@@ -403,16 +405,18 @@ a.read:hover{
 	color: #fff;
 }
 .container .skills{
-	height: 540px;
+	height: 490px;
 	width: 100%;
-	background: #072858;
+	background: black;
 	padding: 10px 10px;
-	margin: 10px;	
+	margin-top: 9px;	
+	border: 1px solid rgba(255,255,255,0.1);
+	box-shadow: inset 0 0 25px rgba(0,0,0,.5);
 	
 }
 .container .skills .skills-sub{
 	padding-top: 50px;
-	padding-top: 100px;
+
 }
 .container .skills .indicator-slide{
 	padding: 10px;			
@@ -427,14 +431,14 @@ a.read:hover{
 .container .skills .progress1{
 	width: 100%;
 	height: 2px;
-	background: #041c40;
+	background: #ff401b;
 }
 .container .skills .bar1{
 	
 	height: 100%;
-	width: 80%;
+	
 	position: relative;	
-background: linear-gradient(to right, #003270 , #2b80ff );
+background: linear-gradient(to right, #ff401b , #d36c31 );
 
 }
 .container .skills .progress1 .bar1::after{
@@ -446,7 +450,7 @@ background: linear-gradient(to right, #003270 , #2b80ff );
 	right: 0;
 	top: -6px;
 	border-radius: 50%;
-	box-shadow: 0 0 25px rgba(41, 123, 247, 1);
+	box-shadow: 0 0 25px rgba(204, 129, 86, 0.842);
 }
 
 
@@ -618,15 +622,13 @@ p.w3l_sub_para_agile {
     -moz-background-size: cover;
     min-height:500px;
 }
-.agile_overlay{
-    background: url(../images/overlay.png)repeat;
-    padding: 6em 0 6.5em 0;
-}
+
 .jarallax {
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+	background-position: 50% 50%;
+	
 }
 .wthree_head{
 	font-size:3em;
